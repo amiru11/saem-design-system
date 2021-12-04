@@ -5,7 +5,19 @@
   "repository": "https://github.com/amiru11/saem-design-system.git",
   "author": "Saemii <wrfg12@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "stylelint './**/*.scss'",
+    "lint:fix": "yarn lint --fix"
+  },
   "dependencies": {
     "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.4",
+    "prettier": "^2.5.0",
+    "stylelint": "^14.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-prettier": "^2.0.0"
   }
 }
