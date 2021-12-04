@@ -1,0 +1,38 @@
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+
+/**
+* 색상을 정의하는 파일
+* _variables.scss에서 정의한 변수를 사용한다.
+* 여기서 정의한 색상 변수는 다른 곳에서 가져와서 사용할 수 있도록 default! 플래그를 붙여 정의해야한다.
+* 그래야만 덮어씌워지는 곳에서 사용하는 sass변수에 의해 재정의되지 않기 때문이다.
+* 즉 안전하게 변경할 수 있는 공용 API의 모든 변수 부분에 !default 플래그를 사용해라!
+*/
+
+/*=============================================
+=            Global text colors               =
+=============================================*/
+$body-text-color: var(--sds-body-text-color, $dark) !default;
+$body-bg-color: var(--sds-body-bg-color, $white) !default;
+
+/*=============================================
+=                 Buttons                     =
+=============================================*/
+$btn-primary-color: var(--sds-btn-primary-color, $white) !default;
+$btn-primary-bg: var(--sds-btn-primary-bg, $green) !default;
+$btn-primary-bg-hover: var(--sds-btn-primary-bg-hover, $green-light) !default;
+
+/*=============================================
+=                 Forms                       =
+=============================================*/
+$form-border-color: var(--sds-form-border-color, $white-dark) !default;
+$form-bg-color: var(--sds-form-bg-color, $white) !default;
+$form-bg-option-selected: var(--sds-form-bg-option-selected, $green) !default;
+$form-color-option-selected: var(--sds-form-color-option-selected, $white) !default;
+$form-bg-color-hover: var(--sds-form-bg-color-hover, $white-dark) !default;
+$form-color: var(--sds-form-color, $dark) !default;
+$form-bg: var(--sds-form-bg, $white) !default;
+$form-error-color: var(--sds-form-error-color, $red) !default;
+$form-error-border: var(--sds-form-error-border, $red) !default;
+$form-border-focus-color: var(--sds-form-border-focus-color, $green) !default;

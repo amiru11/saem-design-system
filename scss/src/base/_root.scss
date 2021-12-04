@@ -1,0 +1,36 @@
+// default CSS variables define!
+
+:root {
+  --sds-body-text-color: #{$dark};
+  --sds-body-bg-color: #{$white};
+
+  --sds-btn-primary-color: #{$white};
+  --sds-btn-primary-bg: #{$green};
+  --sds-btn-primary-bg-hover: #{$green-light};
+
+  --sds-btn-secondary-color: #{$white};
+  --sds-btn-secondary-bg: #{$dark};
+
+  --sds-form-color: #{$dark};
+  --sds-form-bg: #{$white};
+  --sds-form-error-color: #{$red};
+  --sds-form-error-border: #{$red};
+  --sds-form-border-focus-color: #{$green};
+
+  --sds-body-font-size: #{$font-size-base};
+  --sds-body-font-weight: #{$font-weight-normal};
+
+  --sds-h1-font-size: #{$head-size-1};
+  --sds-h2-font-size: #{$head-size-2};
+  --sds-h3-font-size: #{$head-size-3};
+  --sds-h4-font-size: #{$head-size-4};
+  --sds-h5-font-size: #{$head-size-5};
+  --sds-h6-font-size: #{$head-size-6};
+
+  --sds-h1-font-weight: #{$font-weight-black};
+  --sds-h2-font-weight: #{$font-weight-extrabold};
+  --sds-h3-font-weight: #{$font-weight-bold};
+  --sds-h4-font-weight: #{$font-weight-medium};
+  --sds-h5-font-weight: #{$font-weight-normal};
+  --sds-h6-font-weight: #{$font-weight-light};
+}

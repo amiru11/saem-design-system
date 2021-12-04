@@ -1,0 +1,44 @@
+/*=============================================
+=            Mixins                           =
+=============================================*/
+
+/**
+ *
+ * 믹스인은 Sass 언어 전체에서 가장 많이 사용되는 기능 중 하나이며, 재사용성과 DRY 컴퍼넌트의 핵심
+ * https://sass-guidelin.es/ko/#mixins
+ * map-get 함수는 첫번째 인자로 대상이 될 map 변수, 두번째 인자로 map 변수의 key를 통해 값을 가져온다.
+ * breakpoints 
+ * min-width를 사용하는 경우 스마트폰 등 가장 작은 사이즈에서의 레이아웃을 기본으로 하고, 점차 확장되어가는 형태
+ * max-width를 사용하는 경우 데스크탑용의 가장 큰 화면 사이즈의 레이아웃을 기본으로 하고, 점차 축소하는 형태
+ */
+
+@mixin tablet {
+  @media (min-width: map-get($breakpoints, 'md')) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: map-get($breakpoints, 'lg')) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: map-get($breakpoints, 'xl')) {
+    @content;
+  }
+}
+
+@mixin padding($top: 'none', $right: 'none', $bottom: 'none', $left: 'none') {
+  padding-top: map-get($spacing, $top);
+  padding-right: map-get($spacing, $right);
+  padding-bottom: map-get($spacing, $bottom);
+  padding-left: map-get($spacing, $left);
+}
+@mixin margin($top: 'none', $right: 'none', $bottom: 'none', $left: 'none') {
+  margin-top: map-get($spacing, $top);
+  margin-right: map-get($spacing, $right);
+  margin-bottom: map-get($spacing, $bottom);
+  margin-left: map-get($spacing, $left);
+}

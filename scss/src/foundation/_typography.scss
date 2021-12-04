@@ -1,0 +1,42 @@
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+
+/**
+ * 폰트패밀리, 폰트사이즈, head font의 사이즈와 굵기를 정의한다.
+ * _variables.scss에서 정의한 변수를 사용한다.
+ */
+
+/*=============================================
+=            Body font family                  =
+=============================================*/
+$body-font-family: var(--sds-body-font-family, $playfair) !default;
+
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+
+$body-font-size: var(--sds-body-font-size, $font-size-sm) !default;
+$body-font-weight: var(--sds-body-font-weight, $font-weight-normal) !default;
+
+/*=============================================
+=            Heading font sizes               =
+=============================================*/
+
+$h-1-font-size: var(--sds-h1-font-size, $head-size-1) !default;
+$h-2-font-size: var(--sds-h2-font-size, $head-size-2) !default;
+$h-3-font-size: var(--sds-h3-font-size, $head-size-3) !default;
+$h-4-font-size: var(--sds-h4-font-size, $head-size-4) !default;
+$h-5-font-size: var(--sds-h5-font-size, $head-size-5) !default;
+$h-6-font-size: var(--sds-h6-font-size, $head-size-6) !default;
+
+/*=============================================
+=            Head font weights                =
+=============================================*/
+
+$h-1-font-weight: var(--sds-h1-text-weight, $font-weight-black) !default;
+$h-2-font-weight: var(--sds-h2-text-weight, $font-weight-extrabold) !default;
+$h-3-font-weight: var(--sds-h3-text-weight, $font-weight-bold) !default;
+$h-4-font-weight: var(--sds-h4-text-weight, $font-weight-medium) !default;
+$h-5-font-weight: var(--sds-h5-text-weight, $font-weight-normal) !default;
+$h-6-font-weight: var(--sds-h6-text-weight, $font-weight-light) !default;
