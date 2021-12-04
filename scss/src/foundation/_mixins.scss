@@ -31,14 +31,14 @@
 }
 
 @mixin padding($top: 'none', $right: 'none', $bottom: 'none', $left: 'none') {
-  padding-top: map-get($spacing, $top);
-  padding-right: map-get($spacing, $right);
   padding-bottom: map-get($spacing, $bottom);
   padding-left: map-get($spacing, $left);
+  padding-right: map-get($spacing, $right);
+  padding-top: map-get($spacing, $top);
 }
 @mixin margin($top: 'none', $right: 'none', $bottom: 'none', $left: 'none') {
-  margin-top: map-get($spacing, $top);
-  margin-right: map-get($spacing, $right);
   margin-bottom: map-get($spacing, $bottom);
   margin-left: map-get($spacing, $left);
+  margin-right: map-get($spacing, $right);
+  margin-top: map-get($spacing, $top);
 }

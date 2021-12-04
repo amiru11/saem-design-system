@@ -29,7 +29,10 @@ $btn-primary-bg-hover: var(--sds-btn-primary-bg-hover, $green-light) !default;
 $form-border-color: var(--sds-form-border-color, $white-dark) !default;
 $form-bg-color: var(--sds-form-bg-color, $white) !default;
 $form-bg-option-selected: var(--sds-form-bg-option-selected, $green) !default;
-$form-color-option-selected: var(--sds-form-color-option-selected, $white) !default;
+$form-color-option-selected: var(
+  --sds-form-color-option-selected,
+  $white
+) !default;
 $form-bg-color-hover: var(--sds-form-bg-color-hover, $white-dark) !default;
 $form-color: var(--sds-form-color, $dark) !default;
 $form-bg: var(--sds-form-bg, $white) !default;
