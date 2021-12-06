@@ -6,6 +6,7 @@
     "stylelint-prettier/recommended"
   ],
   "rules": {
-    "prettier/prettier": [true, { "singleQuote": true, "tabWidth": 2 }]
+    "prettier/prettier": [true, { "singleQuote": true, "tabWidth": 2 }],
+    "selector-class-pattern": null
   }
 }

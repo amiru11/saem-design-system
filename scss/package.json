@@ -2,13 +2,15 @@
   "name": "@saem-design-system/scss",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/amiru11/saem-design-system.git",
   "author": "Saemii <wrfg12@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "node src/scripts/build.js",
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "simple-git-hooks": "simple-git-hooks",
+    "postinstall": "yarn run simple-git-hooks",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "normalize-scss": "^7.0.1"
@@ -18,16 +20,12 @@
     "node-sass": "^6.0.1",
     "postcss": "^8.4.4",
     "prettier": "^2.5.0",
-    "simple-git-hooks": "^2.7.0",
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-prettier": "^2.0.0"
   },
-  "simple-git-hooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
-    "*.scss": "yarn run lint --fix"
+    "*.scss": "yarn lint:fix"
   }
 }

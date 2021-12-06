@@ -1,0 +1,8 @@
+{
+  "name": "saem-design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/amiru11/saem-design-system.git",
+  "author": "Saemii <wrfg12@gmail.com>",
+  "license": "MIT"
+}
