@@ -8,8 +8,6 @@
     "build": "node src/scripts/build.js",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix",
-    "simple-git-hooks": "simple-git-hooks",
-    "postinstall": "yarn run simple-git-hooks",
     "lint-staged": "lint-staged"
   },
   "dependencies": {
