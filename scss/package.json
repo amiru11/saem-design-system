@@ -6,6 +6,7 @@
   "author": "Saemii <wrfg12@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "node src/scripts/build.js",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix"
   },
