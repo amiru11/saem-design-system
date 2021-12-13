@@ -1,7 +1,7 @@
 {
-  "name": "@saem-design-system/react",
+  "name": "@saem-ds/react",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "rollup -c"
   },
