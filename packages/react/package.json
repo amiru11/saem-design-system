@@ -1,11 +1,16 @@
 {
-  "name": "@saem-design-system/react",
+  "name": "@saem-ds/react",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.37",
     "react": "^17.0.2",
+    "rollup": "^2.61.1",
+    "rollup-plugin-typescript2": "^0.31.1",
     "typescript": "^4.5.3"
   }
 }

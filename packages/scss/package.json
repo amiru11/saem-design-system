@@ -1,5 +1,5 @@
 {
-  "name": "@saem-design-system/scss",
+  "name": "@saem-ds/scss",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Saemii <wrfg12@gmail.com>",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "lint-staged": "^12.1.2",
     "node-sass": "^6.0.1",
-    "postcss": "^8.4.4",
+    "postcss": "^8.3.3",
     "prettier": "^2.5.0",
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",

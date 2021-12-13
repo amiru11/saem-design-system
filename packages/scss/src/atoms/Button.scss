@@ -1,5 +1,9 @@
 @import 'foundation/all';
 
 .sde-button__container {
+  background-color: $btn-primary-bg;
+  border: 0;
+  color: $btn-primary-color;
   display: flex;
+  padding: map-get($spacing, 'xxxs');
 }

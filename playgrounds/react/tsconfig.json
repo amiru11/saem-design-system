@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
+    "outDir": "lib",
+    "module": "esnext",
+    "lib": ["DOM", "ESNext"],
     "jsx": "react",
-    /* Language and Environment */
-    "target": "ES2016",
-    "skipLibCheck": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "target": "esnext",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "declaration": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "node"
   },
   "include": ["src"],
   "exclude": ["node_modules", "lib"]
