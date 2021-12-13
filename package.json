@@ -3,6 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  },
   "repository": "https://github.com/amiru11/saem-design-system.git",
   "workspaces": {
     "packages": [
@@ -15,9 +19,6 @@
   },
   "author": "Saemii <wrfg12@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "build": "yarn lerna run build"
-  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }

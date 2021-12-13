@@ -5,10 +5,11 @@
   "author": "Saemii <wrfg12@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node src/scripts/build.js",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "dependencies": {
     "normalize-scss": "^7.0.1"
@@ -16,6 +17,7 @@
   "devDependencies": {
     "lint-staged": "^12.1.2",
     "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15",
     "postcss": "^8.3.3",
     "prettier": "^2.5.0",
     "stylelint": "^14.1.0",
