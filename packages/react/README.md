@@ -14,6 +14,12 @@ Create Personal Design System
 
 ---
 
+## Why rollup.js instead of webpack?
+
+- rollup을 쓰는 이유는 webpack은 ES Module 형태로 번들을 할 수 없는 것이 가장 큰 이유. webpack을 사용 할 때에는 일반적으로 commonjs 형태로 번들링을 하게 되는데, commonjs로 번들링한 라이브러리를 나중에 다른 프로젝트에서 사용하게 되면 Tree-shaking이 지원되지 않는다.
+
+---
+
 ## ADD Packages
 
 - [rollup.js](https://github.com/rollup/rollup): library bundling을 위해서 사용하는 bundler
