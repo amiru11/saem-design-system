@@ -1,0 +1,13 @@
+@import 'foundation/all';
+
+@each $size, $value in $spacing {
+  .sde-width-#{$size} {
+    // xxxs, xs, sm, lg
+    width: $value;
+  }
+
+  .sde-height-#{$size} {
+    // xxxs, xs, sm, lg
+    height: $value;
+  }
+}

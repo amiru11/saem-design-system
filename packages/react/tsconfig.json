@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "jsx": "react",
+    "lib": ["DOM", "ESNext"],
     /* Language and Environment */
     "target": "ES2016",
     "skipLibCheck": true,
