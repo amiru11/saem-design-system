@@ -1,0 +1,15 @@
+@import 'foundation/all';
+
+$directions: left, right, top, bottom;
+
+@each $space, $value in $spacing {
+  .sds-margin-#{$space} {
+    margin: $value;
+  }
+
+  @each $side in $directions {
+    .sds-margin-#{$side}-#{$space} {
+      margin-#{$side}: $value;
+    }
+  }
+}
