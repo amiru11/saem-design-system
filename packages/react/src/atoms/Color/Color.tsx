@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { spacing } from '@saem-ds/foundation';
 
 import type { HTMLAttributes } from 'react';
@@ -12,7 +11,7 @@ interface IColorProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 function Color({ hexCode, width = spacing.sm, height = spacing.sm, children }: IColorProps): JSX.Element {
-  const classNames = `sde-width-${width} sde-height-${height}`;
+  const classNames = `sds-width-${width} sds-height-${height}`;
   return (
     <div className={classNames} style={{ backgroundColor: hexCode }}>
       {children}

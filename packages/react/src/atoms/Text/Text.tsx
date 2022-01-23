@@ -6,8 +6,8 @@ interface ITextProps {
   children?: JSX.Element | JSX.Element[];
 }
 
-function Text({ size, children }: ITextProps): JSX.Element {
-  const className = `sde-text-${size}`;
+function Text({ size = fontsize.sm, children }: ITextProps): JSX.Element {
+  const className = `sds-text-${size}`;
   return <p className={className}>{children}</p>;
 }
 

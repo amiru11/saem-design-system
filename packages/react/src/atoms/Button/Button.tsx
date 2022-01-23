@@ -7,7 +7,7 @@ interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 function Button({ label }: IButtonProps): JSX.Element {
-  return <button className="sde-button__container">{label}</button>;
+  return <button className="sds-button__container">{label}</button>;
 }
 
 export default Button;
